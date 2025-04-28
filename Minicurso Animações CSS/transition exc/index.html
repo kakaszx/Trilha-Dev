@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+
+   transition-property: background-color, border-radius;
+    transition-duration: 2s, 1.5s;
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease-in-out; */
+    transition-timing-function: cubic-bezier(.15, .89, .85, .26);
+}
+
+.box:hover {
+    background-color: red;
+    border-radius: 50%;
+
+}
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
