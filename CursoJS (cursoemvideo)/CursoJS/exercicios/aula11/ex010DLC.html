@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é Brasileiro?</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font: normal 15pt Monocraft;
+        }
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Veja se você é Brasileiro!</h1>
+    Qual o seu Pais?<input type="text" name="txtbr" id="txtbr">
+    <input type="button" value="Verificar" onclick="verificador()">
+    <div id="res">
+
+    </div>
+    <script>
+        var txtbr = ('brasil')
+
+        function verificador() {
+            var local = window.document.querySelector('input#txtbr')
+            var res = window.document.querySelector('div#res')
+            var txtbr = (local.value)
+            res.innerHTML = `Você é do <strong>${txtbr}</strong> logo vc é Brasileiro!`
+            if (txtbr != 'brasil'){
+                res.innerHTML = 'Você é Estrangeiro!'
+            }
+
+        }
+    </script>
+</body>
+
+</html>
