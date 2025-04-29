@@ -66,3 +66,50 @@
 // }
 
 //desafio10
+// let valor1 = 32
+// let valor2 = 21
+// let resultado = valor1 + valor2
+// console.log(resultado)
+
+//desafio11
+// let idade = prompt('Digite sua idade:');{
+//     if (idade >= 18) {
+//         alert('Você é maior de idade!');
+//     } else {
+//         alert('Você é menor de idade!');
+//     }
+// }
+
+//desafio12
+// let numero = prompt('Coloque um Valor:');
+// if (numero == 0) {
+//     alert('O número é zero');
+// } else if (numero > 0) {
+//     alert('O número é positivo');
+// } else {
+//     alert('O número é negativo');
+// }
+
+//desafio13
+// let nota = prompt('Digite a nota do aluno:');
+// if (nota >= 7) {
+//     alert('Aluno aprovado!');
+// }
+// else if (nota >= 5) {
+//     alert('Aluno em recuperação!');
+// }
+// else {
+//     alert('Aluno reprovado!');
+// }
+
+//desafio14
+// let numero = Math.random()
+// console.log(numero)
+
+///desafio15
+// let numero = parseInt(Math.random() * 10 + 1);
+// console.log(numero);
+
+//desafio16
+// let numero = parseInt(Math.random() * 1000 + 1);
+// console.log(numero);
