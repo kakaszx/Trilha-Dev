@@ -34,7 +34,7 @@ function verificarChute() {
 }
 
 function gerarNumeroAleatorio() {
-  let numeroEscolhido = parseInt(Math.random() * 100 + 1);
+  return parseInt(Math.random() * 100 + 1);
 }
 
 function limparCampo() {
