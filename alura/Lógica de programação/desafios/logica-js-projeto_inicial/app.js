@@ -8,7 +8,6 @@
 //     alert('Boa semana!');
 // }
 
-
 // desafio02 Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
 // numero = prompt('Digite um positivo ou negativo');
 // if (numero > 0) {
@@ -143,4 +142,80 @@
 // }
 // console.log(numeroVezeseleMesmo(2));
 
+//deasafio 21 Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
+
+// function imc (altura, peso) {
+//     return peso / (altura * altura);
+// }
+// console.log(imc(1.71, 50));
+
+//desafio 22 Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
+// function fatorial (numero) {
+//     let fatorial = 1;
+//     for (let i = 1; i <= numero; i++) {
+//         fatorial *= i;
+//     }
+//     return fatorial;
+// }
+// console.log(fatorial(5));
+
+//desafio 23 Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$ 4,80.
+// function converterDolar(ValorEmDolar) {
+//     let cotacaoDolar = 4.80;
+//     let valorEmReais = valorEmDolar * cotacaoDolar;
+//     return valorEmReais.toFixed(2);
+// }
+
+// let valorEmDolar = 50;
+// let valorEmReias = converterDolar(valorEmDolar);
+// console.log(`${valorEmDolar} dólares equivalem a R$ ${valorEmReias} reais.`);
+
+//desafio 24 Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
+// function calcularAreaPerimetro(altura, largura) {
+//     let area = altura * largura;
+//     let perimetro = 2 * (altura + largura);
+//     return {
+//         area: area,
+//         perimetro: perimetro
+//     };
+// }
+// console.log(calcularAreaPerimetro(3, 5));
+
+// desafio 25 Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
+// function calcularAreaCirculo(raio) {
+//     let area = Math.PI * Math.pow(raio, 2);
+//     let perimetro = 2 * Math.PI * raio;
+//     return {
+//         area: area,
+//         perimetro: perimetro
+//     };
+// }
+// console.log(calcularAreaCirculo(4));
+
+// desafio 26 Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
+// function tabuada(numero) {
+//     for (let i = 1; i <= 10; i++) {
+//      let resultado = numero * i;
+//      console.log(`${numero} x ${i} = ${resultado}`);
+//     }
+// }
+// tabuada(5);
+
+// desafio 27  Crie uma lista de linguagens de programação chamada & Adicione à lista linguagensDeProgramacao os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.
+// const linguagensProg = ["JavaScript", "C++", "Kotlin", "Python",];
+// linguagensProg.push("Java","Ruby", "GoLang");
+
+// console.log(LinguagensProg);
+
+// desafio 28  Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
+// const nomes = ["João", "Ana", "Carlos"];
+// console.log(nomes[0]);
+
+// desafio 29  Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
+// const nomes = ["João", "Ana", "Carlos"];
+// console.log(nomes[1]);
+
+// desafio 30  Crie uma lista com 3 nomes e exiba no console apenas o ultimo elemento.
+// const nomes = ["João", "Ana", "Carlos"];
+// console.log(nomes[2]);
 
