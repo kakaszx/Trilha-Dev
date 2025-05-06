@@ -12,6 +12,7 @@
   },
   "author": "kakaszx",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/kakaszx/learning/issues"
   },
