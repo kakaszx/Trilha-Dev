@@ -12,11 +12,18 @@
     justify-content: space-between;
     flex-flow: row wrap;
     text-align: center;
-    width: 90vw;
+    width: 70vw;
   }
 
   p {
-    padding-right: 7vh;
+    padding-right: 5vh;
     padding-bottom: 2vh;
   }
+
+  a {
+  font-family: "Seagram", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+}
 }
